@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectum — Comparatifs & Avis de Qualité | Faites le bon choix</title>
+  <meta name="description" content="Selectum compare pour vous les meilleures offres : banque, assurance, énergie, logiciels, high-tech. Des guides indépendants et des avis vérifiés pour faire le bon choix.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .cat-banque { background: #dbeafe; } .cat-banque-icon { background: #2563eb; }
+    .cat-assurance { background: #d1fae5; } .cat-assurance-icon { background: #059669; }
+    .cat-energie { background: #fef3c7; } .cat-energie-icon { background: #d97706; }
+    .cat-logiciels { background: #ede9fe; } .cat-logiciels-icon { background: #7c3aed; }
+    .cat-immo { background: #fee2e2; } .cat-immo-icon { background: #dc2626; }
+    .cat-sante { background: #cffafe; } .cat-sante-icon { background: #0891b2; }
+    .cat-voyage { background: #fce7f3; } .cat-voyage-icon { background: #db2777; }
+    .cat-hightech { background: #f0fdf4; } .cat-hightech-icon { background: #16a34a; }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <span class="logo-text">Select<span>um</span></span>
+      </a>
+      <nav class="nav">
+        <div class="nav-item">
+          <span class="nav-link">Banque & Finance <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="comparatifs/banque-en-ligne.html"><span class="dropdown-icon cat-banque">🏦</span> Banque en ligne</a>
+            <a href="comparatifs/livret-epargne.html"><span class="dropdown-icon cat-banque">💰</span> Livret d'épargne</a>
+            <a href="comparatifs/credit-consommation.html"><span class="dropdown-icon cat-banque">💳</span> Crédit à la consommation</a>
+            <a href="comparatifs/bourse-investissement.html"><span class="dropdown-icon cat-banque">📈</span> Bourse & Investissement</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span class="nav-link">Assurance <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="comparatifs/assurance-auto.html"><span class="dropdown-icon cat-assurance">🚗</span> Assurance auto</a>
+            <a href="comparatifs/assurance-habitation.html"><span class="dropdown-icon cat-assurance">🏠</span> Assurance habitation</a>
+            <a href="comparatifs/mutuelle-sante.html"><span class="dropdown-icon cat-assurance">❤️</span> Mutuelle santé</a>
+            <a href="comparatifs/assurance-vie.html"><span class="dropdown-icon cat-assurance">🛡️</span> Assurance vie</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span class="nav-link">Énergie & Télécom <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="comparatifs/box-internet.html"><span class="dropdown-icon cat-energie">📡</span> Box Internet</a>
+            <a href="comparatifs/forfait-mobile.html"><span class="dropdown-icon cat-energie">📱</span> Forfait mobile</a>
+            <a href="comparatifs/fournisseur-electricite.html"><span class="dropdown-icon cat-energie">⚡</span> Fournisseur d'électricité</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span class="nav-link">Logiciels <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="comparatifs/logiciels-comptabilite.html"><span class="dropdown-icon cat-logiciels">📊</span> Logiciels comptabilité</a>
+            <a href="comparatifs/logiciels-crm.html"><span class="dropdown-icon cat-logiciels">🤝</span> CRM</a>
+            <a href="comparatifs/hebergement-web.html"><span class="dropdown-icon cat-logiciels">🖥️</span> Hébergement web</a>
+            <a href="comparatifs/vpn.html"><span class="dropdown-icon cat-logiciels">🔒</span> VPN</a>
+          </div>
+        </div>
+        <a href="guides/" class="nav-link">Guides</a>
+        <a href="#avis" class="nav-link">Avis</a>
+      </nav>
+      <div class="header-cta">
+        <a href="comparatifs/banque-en-ligne.html" class="btn-primary">Comparer maintenant →</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">✨ 100% indépendant — mis à jour en juin 2026</div>
+      <h1>Comparez, choisissez,<br>économisez vraiment.</h1>
+      <p>Des comparatifs honnêtes et détaillés pour faire le meilleur choix sur la banque, l'assurance, l'énergie, les logiciels et bien plus.</p>
+      <div class="hero-search">
+        <input type="text" placeholder="Chercher un comparatif, une marque, un guide…">
+        <button>Rechercher</button>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>120+</strong><span>Comparatifs</span></div>
+        <div class="hero-stat"><strong>500+</strong><span>Offres analysées</span></div>
+        <div class="hero-stat"><strong>8 catégories</strong><span>Couvertes</span></div>
+        <div class="hero-stat"><strong>100%</strong><span>Indépendant</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-bar-inner">
+      <div class="trust-item"><span class="trust-icon">✓</span> Avis vérifiés & indépendants</div>
+      <div class="trust-item"><span class="trust-icon">✓</span> Mis à jour mensuellement</div>
+      <div class="trust-item"><span class="trust-icon">✓</span> Comparatifs transparents</div>
+      <div class="trust-item"><span class="trust-icon">✓</span> Aucun biais commercial</div>
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <div class="eyebrow">Toutes les catégories</div>
+      <h2>Que recherchez-vous ?</h2>
+      <p>Accédez directement à nos comparatifs par thématique</p>
+    </div>
+    <div class="categories-grid">
+      <a href="comparatifs/banque-en-ligne.html" class="category-card">
+        <div class="cat-icon cat-banque"><span>🏦</span></div>
+        <h3>Banque & Finance</h3>
+        <p>Comptes, épargne, crédit</p>
+        <span class="count-badge">12 comparatifs</span>
+      </a>
+      <a href="comparatifs/assurance-auto.html" class="category-card">
+        <div class="cat-icon cat-assurance"><span>🛡️</span></div>
+        <h3>Assurance</h3>
+        <p>Auto, habitation, santé</p>
+        <span class="count-badge">10 comparatifs</span>
+      </a>
+      <a href="comparatifs/box-internet.html" class="category-card">
+        <div class="cat-icon cat-energie"><span>⚡</span></div>
+        <h3>Énergie & Télécom</h3>
+        <p>Box, mobile, électricité</p>
+        <span class="count-badge">8 comparatifs</span>
+      </a>
+      <a href="comparatifs/logiciels-comptabilite.html" class="category-card">
+        <div class="cat-icon cat-logiciels"><span>💻</span></div>
+        <h3>Logiciels & SaaS</h3>
+        <p>Compta, CRM, hébergement</p>
+        <span class="count-badge">14 comparatifs</span>
+      </a>
+      <a href="comparatifs/mutuelle-sante.html" class="category-card">
+        <div class="cat-icon cat-sante"><span>❤️</span></div>
+        <h3>Santé & Bien-être</h3>
+        <p>Mutuelles, complémentaires</p>
+        <span class="count-badge">6 comparatifs</span>
+      </a>
+      <a href="comparatifs/hebergement-web.html" class="category-card">
+        <div class="cat-icon cat-hightech"><span>🖥️</span></div>
+        <h3>High-Tech & Web</h3>
+        <p>VPN, hébergement, antivirus</p>
+        <span class="count-badge">9 comparatifs</span>
+      </a>
+      <a href="comparatifs/assurance-habitation.html" class="category-card">
+        <div class="cat-icon cat-immo"><span>🏠</span></div>
+        <h3>Maison & Immo</h3>
+        <p>Alarme, assurance, crédit immo</p>
+        <span class="count-badge">7 comparatifs</span>
+      </a>
+      <a href="guides/" class="category-card">
+        <div class="cat-icon cat-voyage"><span>✈️</span></div>
+        <h3>Voyage & Loisirs</h3>
+        <p>Assurance voyage, cartes</p>
+        <span class="count-badge">5 comparatifs</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED COMPARATIFS -->
+<section class="section" style="background: var(--gray-50); padding-top: 0;">
+  <div class="container">
+    <div class="section-title">
+      <div class="eyebrow">Nos meilleurs comparatifs</div>
+      <h2>Les plus consultés du moment</h2>
+    </div>
+    <div class="featured-grid">
+      <a href="comparatifs/banque-en-ligne.html" class="featured-card featured-main">
+        <div class="featured-bg" style="background: linear-gradient(135deg, #1e3a8a, #2563eb);"></div>
+        <div class="featured-overlay"></div>
+        <div class="featured-text">
+          <span class="cat-tag">Banque</span>
+          <h3>Meilleure banque en ligne 2026 : le classement complet</h3>
+          <p class="excerpt">Boursorama, Hello Bank, Fortuneo, Monabanq… Nous avons comparé les frais, les services et les offres de bienvenue pour vous guider.</p>
+        </div>
+      </a>
+      <a href="comparatifs/assurance-auto.html" class="featured-card">
+        <div class="featured-bg" style="background: linear-gradient(135deg, #065f46, #059669);"></div>
+        <div class="featured-overlay"></div>
+        <div class="featured-text">
+          <span class="cat-tag" style="background:#059669">Assurance</span>
+          <h3>Meilleure assurance auto 2026</h3>
+          <p class="excerpt">MAIF, Direct Assurance, AXA — qui propose le meilleur rapport qualité/prix ?</p>
+        </div>
+      </a>
+      <a href="comparatifs/box-internet.html" class="featured-card">
+        <div class="featured-bg" style="background: linear-gradient(135deg, #78350f, #d97706);"></div>
+        <div class="featured-overlay"></div>
+        <div class="featured-text">
+          <span class="cat-tag" style="background:#d97706">Télécom</span>
+          <h3>Meilleure box internet 2026</h3>
+          <p class="excerpt">Free, SFR, Orange ou Bouygues ? Notre comparatif complet des offres fibre.</p>
+        </div>
+      </a>
+      <a href="comparatifs/vpn.html" class="featured-card">
+        <div class="featured-bg" style="background: linear-gradient(135deg, #4c1d95, #7c3aed);"></div>
+        <div class="featured-overlay"></div>
+        <div class="featured-text">
+          <span class="cat-tag" style="background:#7c3aed">High-Tech</span>
+          <h3>Meilleur VPN 2026 : Top 5</h3>
+          <p class="excerpt">NordVPN, ExpressVPN, Surfshark… lequel choisir pour votre sécurité en ligne ?</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ALL COMPARATIFS GRID -->
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <div class="eyebrow">Tous les comparatifs</div>
+      <h2>Explorez nos guides complets</h2>
+    </div>
+    <div class="grid-3">
+
+      <a href="comparatifs/banque-en-ligne.html" class="comparatif-card">
+        <div class="card-badge-top">⭐ Meilleur choix : Boursorama</div>
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag">Banque</span><span class="card-date">Juin 2026</span></div>
+          <h3>Meilleures banques en ligne</h3>
+          <p>Comparatif complet de 7 banques digitales françaises. Frais, services, app mobile et offres de bienvenue décryptés.</p>
+        </div>
+        <div class="card-footer">
+          <span class="card-read">Lire le comparatif →</span>
+          <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="rating-text">4.9</span></div>
+        </div>
+      </a>
+
+      <a href="comparatifs/assurance-auto.html" class="comparatif-card">
+        <div class="card-badge-top green">⭐ Meilleur choix : MAIF</div>
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag">Assurance</span><span class="card-date">Juin 2026</span></div>
+          <h3>Meilleures assurances auto</h3>
+          <p>MAIF, Direct Assurance, AXA, Macif, Groupama : quel assureur auto choisir en 2026 pour économiser ?</p>
+        </div>
+        <div class="card-footer">
+          <span class="card-read">Lire le comparatif →</span>
+          <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="rating-text">4.8</span></div>
+        </div>
+      </a>
+
+      <a href="comparatifs/box-internet.html" class="comparatif-card">
+        <div class="card-badge-top orange">⭐ Meilleur choix : Freebox</div>
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag">Télécom</span><span class="card-date">Juin 2026</span></div>
+          <h3>Meilleures box internet fibre</h3>
+          <p>Freebox Ultra, SFR Fibre, Livebox 6, Bbox Must : le comparatif des offres fibre 2026 avec prix et débits réels.</p>
+        </div>
+        <div class="card-footer">
+          <span class="card-read">Lire le comparatif →</span>
+          <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="rating-text">4.7</span></div>
+        </div>
+      </a>
+
+      <a href="comparatifs/logiciels-comptabilite.html" class="comparatif-card">
+        <div class="card-badge-top">⭐ Meilleur choix : Pennylane</div>
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag">Logiciels</span><span class="card-date">Juin 2026</span></div>
+          <h3>Meilleurs logiciels de comptabilité</h3>
+          <p>Pennylane, QuickBooks, Sage, Dext, Cegid : quel logiciel comptable choisir pour votre entreprise en 2026 ?</p>
+        </div>
+        <div class="card-footer">
+          <span class="card-read">Lire le comparatif →</span>
+          <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="rating-text">4.8</span></div>
+        </div>
+      </a>
+
+      <a href="comparatifs/mutuelle-sante.html" class="comparatif-card">
+        <div class="card-badge-top green">⭐ Meilleur choix : Alan</div>
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag">Santé</span><span class="card-date">Juin 2026</span></div>
+          <h3>Meilleures mutuelles santé</h3>
+          <p>Alan, Malakoff Humanis, Harmonie Mutuelle, Allianz, Generali : comparatif complet des remboursements et tarifs.</p>
+        </div>
+        <div class="card-footer">
+          <span class="card-read">Lire le comparatif →</span>
+          <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="rating-text">4.6</span></div>
+        </div>
+      </a>
+
+      <a href="comparatifs/vpn.html" class="comparatif-card">
+        <div class="card-badge-top">⭐ Meilleur choix : NordVPN</div>
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag">High-Tech</span><span class="card-date">Juin 2026</span></div>
+          <h3>Meilleurs VPN 2026</h3>
+          <p>NordVPN, ExpressVPN, Surfshark, CyberGhost, ProtonVPN : lequel choisir pour la sécurité et la vie privée ?</p>
+        </div>
+        <div class="card-footer">
+          <span class="card-read">Lire le comparatif →</span>
+          <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="rating-text">4.9</span></div>
+        </div>
+      </a>
+
+      <a href="comparatifs/hebergement-web.html" class="comparatif-card">
+        <div class="card-badge-top">⭐ Meilleur choix : o2switch</div>
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag">High-Tech</span><span class="card-date">Mai 2026</span></div>
+          <h3>Meilleurs hébergements web</h3>
+          <p>o2switch, OVH, Infomaniak, PlanetHoster, Hostinger : quel hébergeur choisir pour votre site en 2026 ?</p>
+        </div>
+        <div class="card-footer">
+          <span class="card-read">Lire le comparatif →</span>
+          <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="rating-text">4.8</span></div>
+        </div>
+      </a>
+
+      <a href="comparatifs/logiciels-crm.html" class="comparatif-card">
+        <div class="card-badge-top green">⭐ Meilleur choix : HubSpot</div>
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag">Logiciels</span><span class="card-date">Mai 2026</span></div>
+          <h3>Meilleurs logiciels CRM</h3>
+          <p>HubSpot, Salesforce, Pipedrive, Monday, Notion CRM : quel CRM pour les PME et startups françaises ?</p>
+        </div>
+        <div class="card-footer">
+          <span class="card-read">Lire le comparatif →</span>
+          <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="rating-text">4.5</span></div>
+        </div>
+      </a>
+
+      <a href="comparatifs/assurance-habitation.html" class="comparatif-card">
+        <div class="card-badge-top green">⭐ Meilleur choix : Luko</div>
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag">Assurance</span><span class="card-date">Mai 2026</span></div>
+          <h3>Meilleures assurances habitation</h3>
+          <p>Luko, MAIF, AXA, Allianz, Direct Assurance : comparatif des assurances habitation avec garanties et prix.</p>
+        </div>
+        <div class="card-footer">
+          <span class="card-read">Lire le comparatif →</span>
+          <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span><span class="rating-text">4.6</span></div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- GUIDES SECTION -->
+<section class="section" style="background: var(--gray-50);">
+  <div class="container">
+    <div class="section-title">
+      <div class="eyebrow">Nos guides experts</div>
+      <h2>Comprendre avant de choisir</h2>
+      <p>Des guides pratiques rédigés par nos experts pour vous aider à prendre la bonne décision</p>
+    </div>
+    <div class="grid-3">
+      <a href="guides/choisir-banque-en-ligne.html" class="comparatif-card">
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag" style="background:#fef3c7;color:#92400e;">Guide</span><span class="card-date">8 min de lecture</span></div>
+          <h3>Comment choisir sa banque en ligne ?</h3>
+          <p>Frais, services, application mobile, SAV… tous les critères à vérifier avant d'ouvrir un compte en ligne.</p>
+        </div>
+        <div class="card-footer"><span class="card-read">Lire le guide →</span></div>
+      </a>
+      <a href="guides/meilleure-assurance-auto.html" class="comparatif-card">
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag" style="background:#fef3c7;color:#92400e;">Guide</span><span class="card-date">6 min de lecture</span></div>
+          <h3>Assurance auto : comment payer moins cher ?</h3>
+          <p>Comparaison des garanties, franchise, bonus/malus : tous nos conseils pour réduire votre prime d'assurance auto.</p>
+        </div>
+        <div class="card-footer"><span class="card-read">Lire le guide →</span></div>
+      </a>
+      <a href="guides/" class="comparatif-card">
+        <div class="card-content">
+          <div class="card-meta"><span class="card-category-tag" style="background:#fef3c7;color:#92400e;">Guide</span><span class="card-date">10 min de lecture</span></div>
+          <h3>Créer une entreprise en 2026 : guide complet</h3>
+          <p>SAS, SARL, micro-entreprise : quel statut choisir, les démarches, les coûts et les pièges à éviter.</p>
+        </div>
+        <div class="card-footer"><span class="card-read">Lire le guide →</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="section">
+  <div class="container">
+    <div class="newsletter">
+      <h2>📬 Ne manquez aucune bonne affaire</h2>
+      <p>Recevez chaque semaine nos meilleurs comparatifs et les offres exclusives de nos partenaires</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="votre@email.fr">
+        <button>Je m'abonne</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo logo">
+          <div class="logo-icon">S</div>
+          <span class="logo-text">Select<span>um</span></span>
+        </div>
+        <p>Selectum est un comparateur indépendant qui vous aide à faire le bon choix parmi des centaines d'offres. Nos comparatifs sont mis à jour régulièrement.</p>
+      </div>
+      <div>
+        <h4>Comparatifs</h4>
+        <ul>
+          <li><a href="comparatifs/banque-en-ligne.html">Banque en ligne</a></li>
+          <li><a href="comparatifs/assurance-auto.html">Assurance auto</a></li>
+          <li><a href="comparatifs/box-internet.html">Box internet</a></li>
+          <li><a href="comparatifs/mutuelle-sante.html">Mutuelle santé</a></li>
+          <li><a href="comparatifs/vpn.html">VPN</a></li>
+          <li><a href="comparatifs/logiciels-comptabilite.html">Logiciels compta</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="guides/choisir-banque-en-ligne.html">Choisir sa banque</a></li>
+          <li><a href="guides/meilleure-assurance-auto.html">Assurance auto</a></li>
+          <li><a href="guides/">Tous les guides</a></li>
+        </ul>
+        <h4 style="margin-top: 24px;">Entreprise</h4>
+        <ul>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li><a href="politique-confidentialite.html">Confidentialité</a></li>
+          <li><a href="mentions-legales.html#cookies">Cookies</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:contact@selectum.fr">contact@selectum.fr</a></li>
+        </ul>
+        <div style="margin-top: 24px;">
+          <p style="color: var(--gray-500); font-size: 0.75rem; line-height: 1.6;">Selectum peut percevoir une rémunération de la part de ses partenaires via des liens d'affiliation. Cela n'affecte pas l'objectivité de nos comparatifs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Selectum — Un service de HALBC SAS. Tous droits réservés.</p>
+      <div class="footer-bottom-links">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="politique-confidentialite.html">Vie privée</a>
+        <a href="mentions-legales.html#cookies">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
