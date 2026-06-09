@@ -28,7 +28,7 @@
     /* Sous-menus déroulants : ouverture au tap sur mobile */
     nav.querySelectorAll('.nav-item > .nav-link').forEach(function (link) {
       link.addEventListener('click', function (e) {
-        if (window.matchMedia('(max-width: 768px)').matches) {
+        if (window.matchMedia('(max-width: 1024px)').matches) {
           e.preventDefault();
           link.parentElement.classList.toggle('open');
         }

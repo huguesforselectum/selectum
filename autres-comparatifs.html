@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tous nos comparatifs — 25 catégories | Selectum</title>
+  <meta name="description" content="Retrouvez l'ensemble des comparatifs Selectum : banque, bourse, épargne, crédit, assurance, outils pro et tech. 25 catégories indépendantes.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/assets/selectum-appicon.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/favicon-180.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .ac-section { margin-bottom: 40px; }
+    .ac-section h2 { font-size: 1.25rem; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid var(--gray-200); }
+    .ac-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .ac-card { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 16px 18px; border: 1px solid var(--gray-200); border-radius: var(--radius-sm); background: var(--white); transition: all .15s; text-decoration: none; }
+    a.ac-card:hover { border-color: var(--blue); box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+    .ac-card .ac-name { font-weight: 600; color: var(--gray-900); }
+    .ac-badge { font-size: 0.7rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+    .ac-live { background: #dcfce7; color: #15803d; }
+    .ac-soon { background: var(--gray-100); color: var(--gray-500); }
+    @media (max-width: 768px) { .ac-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="/index.html" class="logo"><img src="/assets/selectum-logo.svg" alt="Selectum — Comparatifs indépendants" class="logo-img"></a>
+      <nav class="nav">
+        <div class="nav-item">
+          <span class="nav-link">Banque <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="/comparatifs/banque-en-ligne.html">Néobanque grand public</a>
+            <a href="/autres-comparatifs.html#pro">Compte pro / B2B</a>
+            <a href="/autres-comparatifs.html#famille">Cartes ados & famille</a>
+            <a href="/autres-comparatifs.html#transfert">Transfert d'argent</a>
+            <a href="/autres-comparatifs.html#change">Change multi-devises</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span class="nav-link">Bourse <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="/autres-comparatifs.html#trading">Trading & brokers</a>
+            <a href="/comparatifs/crypto.html">Crypto exchanges</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span class="nav-link">Épargne <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="/autres-comparatifs.html#epargne">Épargne pilotée</a>
+            <a href="/autres-comparatifs.html#retraite">PER / Retraite</a>
+            <a href="/autres-comparatifs.html#assurance-vie">Assurance-vie</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span class="nav-link">Crédit <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="/autres-comparatifs.html#credit">Crédit conso</a>
+            <a href="/autres-comparatifs.html#rachat">Rachat de crédit</a>
+            <a href="/autres-comparatifs.html#immobilier">Courtage immobilier</a>
+            <a href="/autres-comparatifs.html#emprunteur">Assurance emprunteur</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span class="nav-link">Assurance <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="/comparatifs/mutuelle-sante.html">Mutuelle santé</a>
+            <a href="/comparatifs/assurance-auto.html">Assurance auto</a>
+            <a href="/comparatifs/assurance-habitation.html">Assurance habitation</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span class="nav-link">Pro <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="/comparatifs/logiciels-comptabilite.html">Comptabilité</a>
+            <a href="/autres-comparatifs.html#facturation">Facturation / gestion</a>
+            <a href="/autres-comparatifs.html#paiement">Terminaux de paiement</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span class="nav-link">Tech <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></span>
+          <div class="dropdown">
+            <a href="/comparatifs/vpn.html">VPN / cybersécurité</a>
+            <a href="/comparatifs/hebergement-web.html">Hébergement web</a>
+            <a href="/comparatifs/logiciels-crm.html">CRM / SaaS B2B</a>
+            <a href="/autres-comparatifs.html#formation">Formation en ligne</a>
+          </div>
+        </div>
+        <a href="/autres-comparatifs.html" class="nav-link active">Autres</a>
+      </nav>
+      <div class="header-cta"><a href="/index.html" class="btn-primary">Accueil →</a></div>
+    </div>
+  </div>
+</header>
+
+<div style="background: var(--gray-900); padding: 48px 0;">
+  <div class="container">
+    <h1 style="color:white; margin-bottom: 8px;">Tous nos comparatifs</h1>
+    <p style="color: rgba(255,255,255,.65); font-size: 0.95rem; max-width: 640px;">25 catégories indépendantes, de la banque à la tech. Les comparatifs disponibles sont marqués « En ligne » ; les autres arrivent prochainement.</p>
+  </div>
+</div>
+
+<div class="container" style="padding: 48px 0 64px;">
+
+  <div class="ac-section" id="banque">
+    <h2>🏦 Banque & paiement</h2>
+    <div class="ac-grid">
+      <a class="ac-card" href="/comparatifs/banque-en-ligne.html"><span class="ac-name">Néobanque grand public</span><span class="ac-badge ac-live">En ligne</span></a>
+      <span class="ac-card" id="pro"><span class="ac-name">Compte pro / B2B</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <span class="ac-card" id="famille"><span class="ac-name">Cartes ados & famille</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <span class="ac-card" id="transfert"><span class="ac-name">Transfert d'argent</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <span class="ac-card" id="change"><span class="ac-name">Change multi-devises</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <span class="ac-card" id="paiement"><span class="ac-name">Terminaux de paiement</span><span class="ac-badge ac-soon">Bientôt</span></span>
+    </div>
+  </div>
+
+  <div class="ac-section" id="bourse">
+    <h2>📈 Bourse & crypto</h2>
+    <div class="ac-grid">
+      <span class="ac-card" id="trading"><span class="ac-name">Trading & brokers</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <a class="ac-card" href="/comparatifs/crypto.html"><span class="ac-name">Crypto exchanges</span><span class="ac-badge ac-live">En ligne</span></a>
+    </div>
+  </div>
+
+  <div class="ac-section" id="epargne-sec">
+    <h2>💰 Épargne & retraite</h2>
+    <div class="ac-grid">
+      <span class="ac-card" id="epargne"><span class="ac-name">Épargne pilotée</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <span class="ac-card" id="retraite"><span class="ac-name">PER / Retraite</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <span class="ac-card" id="assurance-vie"><span class="ac-name">Assurance-vie</span><span class="ac-badge ac-soon">Bientôt</span></span>
+    </div>
+  </div>
+
+  <div class="ac-section" id="credit-sec">
+    <h2>🏠 Crédit & immobilier</h2>
+    <div class="ac-grid">
+      <span class="ac-card" id="credit"><span class="ac-name">Crédit conso</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <span class="ac-card" id="rachat"><span class="ac-name">Rachat de crédit</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <span class="ac-card" id="immobilier"><span class="ac-name">Courtage immobilier</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <span class="ac-card" id="emprunteur"><span class="ac-name">Assurance emprunteur</span><span class="ac-badge ac-soon">Bientôt</span></span>
+    </div>
+  </div>
+
+  <div class="ac-section" id="assurance-sec">
+    <h2>🛡️ Assurance</h2>
+    <div class="ac-grid">
+      <a class="ac-card" href="/comparatifs/mutuelle-sante.html"><span class="ac-name">Mutuelle santé</span><span class="ac-badge ac-live">En ligne</span></a>
+      <a class="ac-card" href="/comparatifs/assurance-auto.html"><span class="ac-name">Assurance auto</span><span class="ac-badge ac-live">En ligne</span></a>
+      <a class="ac-card" href="/comparatifs/assurance-habitation.html"><span class="ac-name">Assurance habitation</span><span class="ac-badge ac-live">En ligne</span></a>
+    </div>
+  </div>
+
+  <div class="ac-section" id="pro-sec">
+    <h2>🧾 Outils pro</h2>
+    <div class="ac-grid">
+      <a class="ac-card" href="/comparatifs/logiciels-comptabilite.html"><span class="ac-name">Comptabilité</span><span class="ac-badge ac-live">En ligne</span></a>
+      <span class="ac-card" id="facturation"><span class="ac-name">Facturation / gestion</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <a class="ac-card" href="/comparatifs/logiciels-crm.html"><span class="ac-name">CRM / SaaS B2B</span><span class="ac-badge ac-live">En ligne</span></a>
+    </div>
+  </div>
+
+  <div class="ac-section" id="tech-sec">
+    <h2>💻 Tech & conso</h2>
+    <div class="ac-grid">
+      <a class="ac-card" href="/comparatifs/vpn.html"><span class="ac-name">VPN / cybersécurité</span><span class="ac-badge ac-live">En ligne</span></a>
+      <a class="ac-card" href="/comparatifs/hebergement-web.html"><span class="ac-name">Hébergement web</span><span class="ac-badge ac-live">En ligne</span></a>
+      <span class="ac-card" id="formation"><span class="ac-name">Formation en ligne</span><span class="ac-badge ac-soon">Bientôt</span></span>
+      <a class="ac-card" href="/comparatifs/box-internet.html"><span class="ac-name">Box internet</span><span class="ac-badge ac-live">En ligne</span></a>
+      <span class="ac-card" id="box"><span class="ac-name">Box & abonnements</span><span class="ac-badge ac-soon">Bientôt</span></span>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:1px solid rgba(255,255,255,.1);padding:20px 0;margin-top:0;">
+      <p>© 2026 Selectum — Un service de HALBC SAS. Tous droits réservés.</p>
+      <div class="footer-bottom-links">
+        <a href="/index.html">Accueil</a>
+        <a href="/guides/index.html">Guides</a>
+        <a href="/mentions-legales.html">Mentions légales</a>
+        <a href="/politique-confidentialite.html">Confidentialité</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
