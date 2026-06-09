@@ -104,17 +104,6 @@
     </div>
   </div>
 </footer>
-<script>
-document.addEventListener('click', function(e){
-  var btn = e.target.closest('.promo-btn');
-  if(!btn) return;
-  var box = btn.closest('.promo-reveal');
-  if(box && !box.classList.contains('revealed')){
-    e.preventDefault();
-    box.classList.add('revealed');
-    btn.textContent = 'Voir l\'offre →';
-  }
-});
-</script>
+<script src="/assets/site.js" defer></script>
 </body>
 </html>
