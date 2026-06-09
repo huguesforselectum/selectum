@@ -65,6 +65,7 @@ a:hover { color: var(--blue-dark); }
 .header-inner { display: flex; align-items: center; height: 68px; gap: 32px; }
 
 .logo { display: flex; align-items: center; gap: 8px; text-decoration: none; flex-shrink: 0; }
+.logo-img { height: 38px; width: auto; display: block; }
 .logo-icon { width: 36px; height: 36px; background: linear-gradient(135deg, var(--blue), #7c3aed); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 800; font-size: 18px; }
 .logo-text { font-size: 1.35rem; font-weight: 800; color: var(--gray-900); letter-spacing: -0.5px; }
 .logo-text span { color: var(--blue); }

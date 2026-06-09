@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312 72" width="312" height="72" role="img" aria-label="Selectum">
+  <defs>
+    
+  </defs>
+  <g transform="translate(4,4)">
+    <rect x="16" y="16" width="32" height="32" rx="7" transform="rotate(45 32 32)" fill="#1B5FD9"></rect>
+    <path d="M32 23 L41 32 L32 41 L23 32 Z" fill="#ffffff" fill-opacity="0.18"></path>
+  </g>
+  <text class="wm" x="86" y="40">Selectum<tspan class="dot">.</tspan></text>
+  <text class="bl" x="88" y="57">COMPARATIFS INDÉPENDANTS</text>
+</svg>
