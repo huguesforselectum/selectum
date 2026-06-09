@@ -369,10 +369,15 @@ a:hover { color: var(--blue-dark); }
   .offer-price { min-width: auto; }
   .newsletter { padding: 32px 20px; }
   .newsletter-form { flex-direction: column; }
+  .logo-img { height: 30px; }
+  .header-cta { margin-left: auto; }
+  .header-cta .btn-primary { padding: 8px 12px; font-size: 0.78rem; gap: 5px; white-space: nowrap; }
 }
 @media (max-width: 480px) {
   .categories-grid { grid-template-columns: repeat(2, 1fr); }
   .comparison-table td, .comparison-table th { padding: 10px 12px; font-size: 0.8rem; }
+  .header-cta .btn-primary { padding: 7px 10px; font-size: 0.72rem; }
+  .header-cta .btn-primary svg { display: none; }
 }
 
 /* Highlight box */
