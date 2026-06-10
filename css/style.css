@@ -659,3 +659,30 @@ body.lp { background: var(--gray-50); }
 @media (max-width: 680px) {
   .offer-card.top-pick .offer-tags { grid-template-columns: 1fr; }
 }
+
+/* === Structure premium top-pick : rang | logo | checklist | colonne [score/CTA/site] === */
+.offer-card.top-pick { align-items: center; }
+.tp-rank { font-size: 1.6rem; font-weight: 800; color: #f59e0b; min-width: 26px; text-align: center; flex-shrink: 0; }
+.tp-logo { width: 120px; height: 60px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.tp-logo img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.tp-main { flex: 1 1 auto; min-width: 0; }
+.tp-name { font-size: 1.3rem; font-weight: 800; color: var(--gray-900); margin-bottom: 10px; }
+.tp-checklist { list-style: none; margin: 0 0 10px; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 7px 18px; }
+.tp-checklist li { font-size: 0.9rem; color: var(--gray-700); padding-left: 25px; position: relative; line-height: 1.35; }
+.tp-checklist li::before { content: '✓'; position: absolute; left: 0; top: 1px; color: #fff; background: var(--green); width: 18px; height: 18px; border-radius: 50%; font-size: 11px; display: flex; align-items: center; justify-content: center; }
+.tp-more { font-size: 0.85rem; font-weight: 600; color: var(--blue); display: inline-block; }
+.tp-side { flex-shrink: 0; width: 188px; display: flex; flex-direction: column; gap: 9px; align-self: center; }
+.tp-score { background: var(--blue-light); border-radius: var(--radius); padding: 10px 8px; text-align: center; }
+.tp-score b { font-size: 1.7rem; font-weight: 800; color: var(--blue); line-height: 1; }
+.tp-score span { font-size: 0.95rem; color: var(--gray-500); font-weight: 700; }
+.tp-score small { display: block; font-size: 0.6rem; letter-spacing: .06em; color: var(--gray-500); text-transform: uppercase; margin-top: 5px; font-weight: 700; }
+.tp-price { text-align: center; font-size: 1.05rem; font-weight: 800; color: var(--gray-900); }
+.tp-cta { justify-content: center; font-size: 1rem; padding: 14px; width: 100%; box-shadow: 0 8px 20px -6px rgba(5,150,105,.45); }
+.tp-gosite { text-align: center; font-size: 0.78rem; color: var(--gray-500); text-decoration: underline; }
+.tp-gosite:hover { color: var(--blue); }
+@media (max-width: 760px) {
+  .offer-card.top-pick { flex-wrap: wrap; }
+  .tp-main { flex-basis: 100%; order: 3; }
+  .tp-checklist { grid-template-columns: 1fr; }
+  .tp-side { width: 100%; order: 4; }
+}
