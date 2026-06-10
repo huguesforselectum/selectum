@@ -454,4 +454,12 @@
 <url><loc>https://selectum.fr/guides/sage.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://selectum.fr/guides/dext.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://selectum.fr/guides/cegid.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://selectum.fr/actualites/assurance-auto.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://selectum.fr/actualites/banque-en-ligne.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://selectum.fr/actualites/crypto.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://selectum.fr/actualites/hebergement-web.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://selectum.fr/actualites/logiciels-comptabilite.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://selectum.fr/actualites/mutuelle-sante.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://selectum.fr/actualites/trading-bourse.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://selectum.fr/actualites/vpn.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 </urlset>
