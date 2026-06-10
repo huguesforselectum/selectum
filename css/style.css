@@ -557,3 +557,21 @@ body.lp { background: var(--gray-50); }
   .lp-why-grid { grid-template-columns: 1fr; }
   .lp-trust { display: none; }
 }
+
+/* =============================================
+   PAGES VS (face-à-face)
+   ============================================= */
+.vs-grid { display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch; gap: 18px; margin: 28px 0; }
+.vs-col { background: #fff; border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: 24px; text-align: center; display: flex; flex-direction: column; box-shadow: var(--shadow-sm); }
+.vs-col.vs-win { border: 2px solid var(--blue); box-shadow: 0 12px 30px -10px rgba(37,99,235,.28); }
+.vs-logo { height: 56px; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
+.vs-logo img { max-height: 56px; max-width: 150px; object-fit: contain; }
+.vs-col h2 { font-size: 1.25rem; margin-bottom: 8px; }
+.vs-col .stars { justify-content: center; margin-bottom: 12px; }
+.vs-desc { font-size: 0.9rem; color: var(--gray-600); flex: 1; margin-bottom: 12px; }
+.vs-price { font-size: 1.3rem; font-weight: 800; color: var(--gray-900); margin-bottom: 16px; }
+.vs-or { align-self: center; font-weight: 800; color: var(--gray-400); font-size: 1.1rem; background: var(--gray-100); width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+@media (max-width: 720px) {
+  .vs-grid { grid-template-columns: 1fr; }
+  .vs-or { margin: 0 auto; }
+}
