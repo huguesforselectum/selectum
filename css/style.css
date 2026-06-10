@@ -616,3 +616,46 @@ body.lp { background: var(--gray-50); }
   .offer-card .offer-cta .btn-green { width: 100%; justify-content: center; }
   .offer-card > .btn-green { justify-content: center; }
 }
+
+/* =============================================
+   CARTE TOP-PICK PREMIUM (style comparateur)
+   ============================================= */
+.offer-card.top-pick {
+  border: 2px solid var(--blue);
+  background: linear-gradient(180deg, var(--blue-light) 0%, #fff 70px);
+  box-shadow: 0 16px 40px -16px rgba(37,99,235,.30);
+  padding-top: 34px;
+  align-items: center;
+}
+.offer-card.top-pick::before {
+  content: '★ NOTRE PRÉFÉRÉ';
+  background: linear-gradient(135deg, #f59e0b, #f97316);
+  color: #fff; font-size: 0.7rem; letter-spacing: .05em; font-weight: 800;
+  padding: 5px 16px; border-radius: 100px; box-shadow: var(--shadow);
+  top: -13px; left: 24px;
+}
+.offer-card.top-pick .offer-name { font-size: 1.2rem; }
+/* tags du top-pick -> checklist verticale avec ✓ */
+.offer-card.top-pick .offer-tags { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 16px; margin-top: 12px; }
+.offer-card.top-pick .offer-tag {
+  background: transparent; color: var(--gray-700); font-weight: 500; font-size: 0.85rem;
+  padding: 2px 0 2px 24px; position: relative; border-radius: 0;
+}
+.offer-card.top-pick .offer-tag::before {
+  content: '✓'; position: absolute; left: 0; top: 1px;
+  color: var(--green); font-weight: 800; background: var(--green-light);
+  width: 17px; height: 17px; border-radius: 50%; font-size: 11px;
+  display: flex; align-items: center; justify-content: center;
+}
+/* colonne droite : prix encadré + CTA proéminent */
+.offer-card.top-pick .offer-price {
+  background: var(--blue-light); border-radius: var(--radius); padding: 10px 16px;
+  min-width: 124px; align-self: center;
+}
+.offer-card.top-pick > .btn-green,
+.offer-card.top-pick .offer-cta .btn-green {
+  font-size: 1rem; padding: 15px 26px; box-shadow: 0 8px 20px -6px rgba(5,150,105,.45);
+}
+@media (max-width: 680px) {
+  .offer-card.top-pick .offer-tags { grid-template-columns: 1fr; }
+}
