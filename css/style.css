@@ -575,3 +575,10 @@ body.lp { background: var(--gray-50); }
   .vs-grid { grid-template-columns: 1fr; }
   .vs-or { margin: 0 auto; }
 }
+
+/* Maillage interne — chips vs dans les pages avis */
+.vs-links { margin: 32px 0 8px; }
+.vs-links h2 { font-size: 1.2rem; margin-bottom: 14px; }
+.vs-link-list { display: flex; flex-wrap: wrap; gap: 10px; }
+.vs-link-chip { display: inline-flex; align-items: center; background: var(--blue-light); color: var(--blue); font-weight: 600; font-size: 0.85rem; padding: 8px 14px; border-radius: 100px; border: 1px solid var(--blue-mid); transition: background .15s, transform .15s; }
+.vs-link-chip:hover { background: var(--blue-mid); color: var(--blue-dark); transform: translateY(-1px); }
