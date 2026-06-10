@@ -527,4 +527,7 @@
 <url><loc>https://selectum.fr/actualites/rachat-credit.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://selectum.fr/actualites/terminaux-paiement.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://selectum.fr/actualites/transfert-argent.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://selectum.fr/avis.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://selectum.fr/code-promo.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://selectum.fr/parrainage.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 </urlset>
