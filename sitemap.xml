@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://selectum.fr/autres-comparatifs.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/avis/assurly.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/bitpanda.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/blank.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/boursobank.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/bunq.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/caravel.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/cofidis.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/coinhouse.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/crypto-com.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/deblock.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -13,8 +15,10 @@
   <url><loc>https://selectum.fr/avis/etoro.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/finom.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/flatpay.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/floa.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/fortuneo.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/goodvest.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/hellofresh.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/henrri.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/hostinger.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/indy.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -22,29 +26,38 @@
   <url><loc>https://selectum.fr/avis/kard.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/kraken.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/linxea.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/magnolia.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/meilleurtaux.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/mypos.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/n26.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/nalo.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/nordvpn.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/openclassrooms.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/pixpay.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/placement-direct.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/pretto.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/qonto.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/ramify.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/remitly.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/revolut.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/shine.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/solutis.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/sumup.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/tiime.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/trade-republic.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/udemy.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/wise.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/xtb.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/yomoni.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/avis/younited.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/avis/zettle.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/code-promo/assurly.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/bitpanda.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/blank.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/boursobank.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/bunq.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/caravel.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/cofidis.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/coinhouse.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/crypto-com.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/deblock.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -52,8 +65,10 @@
   <url><loc>https://selectum.fr/code-promo/etoro.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/finom.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/flatpay.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/floa.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/fortuneo.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/goodvest.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/hellofresh.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/henrri.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/hostinger.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/indy.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -61,35 +76,48 @@
   <url><loc>https://selectum.fr/code-promo/kard.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/kraken.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/linxea.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/magnolia.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/meilleurtaux.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/mypos.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/n26.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/nalo.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/nordvpn.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/openclassrooms.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/pixpay.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/placement-direct.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/pretto.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/qonto.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/ramify.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/remitly.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/revolut.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/shine.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/solutis.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/sumup.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/tiime.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/trade-republic.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/udemy.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/wise.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/xtb.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/yomoni.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/code-promo/younited.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/code-promo/zettle.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/comparatifs/assurance-auto.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/assurance-emprunteur.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/assurance-habitation.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/assurance-vie.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/assurly-vs-magnolia.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/banque-en-ligne.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/box-abonnement.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/box-internet.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/cartes-famille.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/change-multidevises.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/comptes-pro.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/courtage-immobilier.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/credit-conso.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/crypto.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/epargne-pilotee.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/facturation.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/formation.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/hebergement-web.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/indy-vs-tiime.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/logiciels-comptabilite.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
@@ -97,7 +125,9 @@
   <url><loc>https://selectum.fr/comparatifs/mutuelle-sante.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/per-retraite.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/pixpay-vs-kard.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/pretto-vs-meilleurtaux.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/qonto-vs-shine.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/rachat-credit.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/revolut-vs-n26.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/sumup-vs-zettle.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/terminaux-paiement.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
@@ -107,6 +137,7 @@
   <url><loc>https://selectum.fr/comparatifs/vpn.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/wise-vs-revolut.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/comparatifs/yomoni-vs-nalo.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/younited-vs-cofidis.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://selectum.fr/guides/choisir-banque-en-ligne.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/guides/index.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/guides/meilleure-assurance-auto.html</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
