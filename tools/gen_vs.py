@@ -130,9 +130,10 @@ existing=set(os.path.basename(f) for f in glob.glob("comparatifs/*-vs-*.html"))
 files=[f for f in sorted(glob.glob("comparatifs/*.html")) if '-vs-' not in os.path.basename(f)]
 made=set(); n=0
 for f in files:
-    offers=parse(f)[:4]
+    offers=parse(f)[:6]
     if len(offers)<2: continue
-    pairs=[(0,1),(0,2),(1,2),(0,3)]
+    import itertools as _it
+    pairs=list(_it.combinations(range(len(offers)),2))
     for i,j in pairs:
         if i<len(offers) and j<len(offers):
             a,b=offers[i],offers[j]
