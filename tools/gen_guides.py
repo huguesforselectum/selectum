@@ -12,7 +12,7 @@ ACTION={"banque-en-ligne":"ouvrir un compte","crypto":"créer un compte","tradin
 def page(d):
     n=html.escape(d['name']); cl=d['catlabel']; slug=d['slug']
     url=f"https://selectum.fr/guides/{slug}.html"
-    action=ACTION[d['cat']]; cmp=CMP[d['cat']]
+    action=ACTION.get(d['cat'], "créer un compte"); cmp=CMP.get(d['cat'], f"/comparatifs/{d['cat']}.html")
     risk = " Investir comporte un risque de perte en capital." if d['cat'] in RISK else ""
     title=f"{d['name']} : comment ça marche ? Guide complet 2026 | Selectum"
     desc=f"Guide {d['name']} 2026 : comment {action}, fonctionnement, frais, sécurité et conseils. Tout savoir sur {d['name']} ({cl}) avant de vous lancer."
