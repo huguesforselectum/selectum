@@ -582,3 +582,10 @@ body.lp { background: var(--gray-50); }
 .vs-link-list { display: flex; flex-wrap: wrap; gap: 10px; }
 .vs-link-chip { display: inline-flex; align-items: center; background: var(--blue-light); color: var(--blue); font-weight: 600; font-size: 0.85rem; padding: 8px 14px; border-radius: 100px; border: 1px solid var(--blue-mid); transition: background .15s, transform .15s; }
 .vs-link-chip:hover { background: var(--blue-mid); color: var(--blue-dark); transform: translateY(-1px); }
+
+/* Hub comparaisons */
+.hub-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
+.hub-item { background: #fff; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 14px 18px; font-weight: 600; color: var(--gray-800); font-size: 0.92rem; transition: border-color .15s, box-shadow .15s, transform .15s; }
+.hub-item:hover { border-color: var(--blue); box-shadow: var(--shadow-md); transform: translateY(-2px); color: var(--gray-900); }
+.hub-item span { color: var(--gray-400); font-weight: 700; font-size: 0.8rem; }
+@media (max-width: 900px) { .hub-grid { grid-template-columns: 1fr; } }
