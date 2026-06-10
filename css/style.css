@@ -194,7 +194,7 @@ a:hover { color: var(--blue-dark); }
    OFFER CARDS (in articles)
    ============================================= */
 .offer-cards { display: flex; flex-direction: column; gap: 18px; margin: 32px 0; }
-.offer-card { display: flex; align-items: center; gap: 18px; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: 22px 24px; transition: transform .18s, box-shadow .18s, border-color .18s; box-shadow: var(--shadow-sm); flex-wrap: wrap; }
+.offer-card { display: flex; align-items: center; gap: 18px; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: 22px 24px; transition: transform .18s, box-shadow .18s, border-color .18s; box-shadow: var(--shadow-sm); }
 .offer-card:hover { box-shadow: var(--shadow-lg); border-color: var(--blue-mid); transform: translateY(-2px); }
 .offer-card.top-pick { border: 2px solid var(--blue); position: relative; padding-top: 30px; box-shadow: 0 12px 30px -8px rgba(37,99,235,.28); }
 .offer-card.top-pick::before { content: '⭐ MEILLEUR CHOIX'; position: absolute; top: -13px; left: 24px; background: linear-gradient(135deg, var(--blue), var(--blue-dark)); color: white; font-size: 0.68rem; letter-spacing: .04em; font-weight: 800; padding: 4px 14px; border-radius: 100px; box-shadow: var(--shadow); }
@@ -203,7 +203,7 @@ a:hover { color: var(--blue-dark); }
 .offer-logo { width: 104px; height: 60px; border-radius: 14px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 11px; color: white; text-align: center; line-height: 1.2; overflow: hidden; }
 .offer-logo.brand { background: transparent; border: none; padding: 0; box-shadow: none; }
 .offer-logo.brand img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
-.offer-info { flex: 1 1 240px; min-width: 130px; }
+.offer-info { flex: 1 1 auto; min-width: 0; }
 .offer-name { font-weight: 700; font-size: 1rem; color: var(--gray-900); }
 .offer-desc { font-size: 0.85rem; color: var(--gray-600); margin-top: 2px; }
 .offer-stars { margin-top: 4px; }
@@ -605,12 +605,14 @@ body.lp { background: var(--gray-50); }
 .actu-item .btn-green { flex-shrink: 0; white-space: nowrap; }
 @media (max-width:600px){ .actu-item .btn-green { width: 100%; justify-content: center; } }
 
-/* === Disposition CTA des cartes d'offres (format liste) : bouton aligné à droite === */
-.offer-card > .btn-green { margin-left: auto; align-self: center; }
-.offer-card .offer-price { margin-left: auto; }
-.offer-card .offer-price + .btn-green { margin-left: 16px; }
+/* === Disposition cartes d'offres (style comparateur) : info extensible | prix | bouton à droite === */
+.offer-card > .btn-green, .offer-card .offer-cta { flex-shrink: 0; align-self: center; }
+.offer-card .offer-price + .btn-green, .offer-card .offer-price + .offer-cta { margin-left: 16px; }
 @media (max-width: 680px) {
-  .offer-card { gap: 12px; }
-  .offer-card .offer-price { margin-left: 0; text-align: left; }
-  .offer-card > .btn-green { width: 100%; margin-left: 0; justify-content: center; }
+  .offer-card { flex-wrap: wrap; gap: 10px 14px; }
+  .offer-info { flex-basis: 100%; }
+  .offer-price { text-align: left; }
+  .offer-card > .btn-green, .offer-card .offer-cta { width: 100%; }
+  .offer-card .offer-cta .btn-green { width: 100%; justify-content: center; }
+  .offer-card > .btn-green { justify-content: center; }
 }
