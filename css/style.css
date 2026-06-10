@@ -194,16 +194,16 @@ a:hover { color: var(--blue-dark); }
    OFFER CARDS (in articles)
    ============================================= */
 .offer-cards { display: flex; flex-direction: column; gap: 18px; margin: 32px 0; }
-.offer-card { display: flex; align-items: center; gap: 22px; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: 22px 26px; transition: transform .18s, box-shadow .18s, border-color .18s; box-shadow: var(--shadow-sm); }
+.offer-card { display: flex; align-items: center; gap: 18px; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: 22px 24px; transition: transform .18s, box-shadow .18s, border-color .18s; box-shadow: var(--shadow-sm); flex-wrap: wrap; }
 .offer-card:hover { box-shadow: var(--shadow-lg); border-color: var(--blue-mid); transform: translateY(-2px); }
 .offer-card.top-pick { border: 2px solid var(--blue); position: relative; padding-top: 30px; box-shadow: 0 12px 30px -8px rgba(37,99,235,.28); }
 .offer-card.top-pick::before { content: '⭐ MEILLEUR CHOIX'; position: absolute; top: -13px; left: 24px; background: linear-gradient(135deg, var(--blue), var(--blue-dark)); color: white; font-size: 0.68rem; letter-spacing: .04em; font-weight: 800; padding: 4px 14px; border-radius: 100px; box-shadow: var(--shadow); }
 .offer-rank { font-size: 1.5rem; font-weight: 800; color: var(--gray-300); min-width: 30px; text-align: center; }
 .offer-rank.gold { color: #f59e0b; }
-.offer-logo { width: 128px; height: 72px; border-radius: 14px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 11px; color: white; text-align: center; line-height: 1.2; overflow: hidden; }
+.offer-logo { width: 104px; height: 60px; border-radius: 14px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 11px; color: white; text-align: center; line-height: 1.2; overflow: hidden; }
 .offer-logo.brand { background: transparent; border: none; padding: 0; box-shadow: none; }
 .offer-logo.brand img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
-.offer-info { flex: 1 1 200px; min-width: 180px; }
+.offer-info { flex: 1 1 240px; min-width: 130px; }
 .offer-name { font-weight: 700; font-size: 1rem; color: var(--gray-900); }
 .offer-desc { font-size: 0.85rem; color: var(--gray-600); margin-top: 2px; }
 .offer-stars { margin-top: 4px; }
