@@ -604,3 +604,13 @@ body.lp { background: var(--gray-50); }
 .actu-links { font-size: 0.8rem; color: var(--gray-500); }
 .actu-item .btn-green { flex-shrink: 0; white-space: nowrap; }
 @media (max-width:600px){ .actu-item .btn-green { width: 100%; justify-content: center; } }
+
+/* === Disposition CTA des cartes d'offres (format liste) : bouton aligné à droite === */
+.offer-card > .btn-green { margin-left: auto; align-self: center; }
+.offer-card .offer-price { margin-left: auto; }
+.offer-card .offer-price + .btn-green { margin-left: 16px; }
+@media (max-width: 680px) {
+  .offer-card { gap: 12px; }
+  .offer-card .offer-price { margin-left: 0; text-align: left; }
+  .offer-card > .btn-green { width: 100%; margin-left: 0; justify-content: center; }
+}
