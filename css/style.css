@@ -718,3 +718,15 @@ body.lp { background: var(--gray-50); }
 .rel-list { display: flex; flex-wrap: wrap; gap: 10px; }
 .rel-chip { display: inline-flex; align-items: center; background: var(--blue-light); color: var(--blue); font-weight: 600; font-size: 0.85rem; padding: 8px 14px; border-radius: 100px; border: 1px solid var(--blue-mid); transition: background .15s, transform .15s; }
 .rel-chip:hover { background: var(--blue-mid); color: var(--blue-dark); transform: translateY(-1px); }
+
+/* === Prix en légende sous le bouton (cartes d'offres) === */
+.offer-buy { display: flex; flex-direction: column; align-items: stretch; gap: 5px; flex-shrink: 0; }
+.offer-buy .btn-green { white-space: nowrap; justify-content: center; }
+.offer-price-cap { text-align: center; font-size: 0.85rem; font-weight: 700; color: var(--gray-700); line-height: 1.2; }
+.offer-price-cap span { display: block; font-size: 0.7rem; font-weight: 500; color: var(--gray-500); margin-top: 1px; }
+/* top-pick : prix déplacé sous le CTA */
+.tp-side { display: flex; flex-direction: column; }
+.tp-side .tp-score { order: 1; }
+.tp-side .tp-cta { order: 2; }
+.tp-side .tp-price { order: 3; text-align: center; font-size: 0.92rem; font-weight: 700; color: var(--gray-700); margin: 2px 0 0; }
+.tp-side .tp-gosite { order: 4; }
