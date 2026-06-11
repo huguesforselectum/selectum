@@ -709,3 +709,12 @@ body.lp { background: var(--gray-50); }
   .offer-card.top-pick { padding: 28px 18px 20px; gap: 14px; }
   .tp-logo { width: 110px; }
 }
+
+/* Comparatifs pleine largeur (style comparateur, cartes au large) */
+.article-solo { max-width: 100%; }
+.article-solo .article-body { max-width: 100%; margin: 0; }
+.rel-links { margin: 36px 0 8px; }
+.rel-links h2 { font-size: 1.2rem; margin-bottom: 14px; }
+.rel-list { display: flex; flex-wrap: wrap; gap: 10px; }
+.rel-chip { display: inline-flex; align-items: center; background: var(--blue-light); color: var(--blue); font-weight: 600; font-size: 0.85rem; padding: 8px 14px; border-radius: 100px; border: 1px solid var(--blue-mid); transition: background .15s, transform .15s; }
+.rel-chip:hover { background: var(--blue-mid); color: var(--blue-dark); transform: translateY(-1px); }
