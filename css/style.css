@@ -730,3 +730,5 @@ body.lp { background: var(--gray-50); }
 .tp-side .tp-cta { order: 2; }
 .tp-side .tp-price { order: 3; text-align: center; font-size: 0.92rem; font-weight: 700; color: var(--gray-700); margin: 2px 0 0; }
 .tp-side .tp-gosite { order: 4; }
+.tp-price span, .offer-price-cap span { font-size: 0.72rem; font-weight: 500; color: var(--gray-500); }
+.tp-price span { margin-left: 2px; }
