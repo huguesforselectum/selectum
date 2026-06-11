@@ -5,7 +5,7 @@ import json, html, os, re
 FONT='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'
 data=json.load(open("/tmp/missing_data.json"))
 
-CATLABEL={'ecommerce':('E-commerce','/comparatifs/ecommerce.html'),'vpn':('VPN','/comparatifs/vpn.html'),'hebergement-web':('Hébergement','/comparatifs/hebergement-web.html'),
+CATLABEL={'adblock':('Bloqueur de pub','/comparatifs/bloqueur-de-pub.html'),'ecommerce':('E-commerce','/comparatifs/ecommerce.html'),'vpn':('VPN','/comparatifs/vpn.html'),'hebergement-web':('Hébergement','/comparatifs/hebergement-web.html'),
  'banque-en-ligne':('Banque','/comparatifs/banque-en-ligne.html'),'assurance-auto':('Assurance','/comparatifs/assurance-auto.html'),
  'assurance-habitation':('Assurance','/comparatifs/assurance-habitation.html'),'mutuelle-sante':('Mutuelle','/comparatifs/mutuelle-sante.html'),
  'logiciels-comptabilite':('Logiciel','/comparatifs/logiciels-comptabilite.html'),'logiciels-crm':('CRM','/comparatifs/logiciels-crm.html'),
