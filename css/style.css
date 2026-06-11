@@ -686,3 +686,26 @@ body.lp { background: var(--gray-50); }
   .tp-checklist { grid-template-columns: 1fr; }
   .tp-side { width: 100%; order: 4; }
 }
+
+/* Mini-score /10 sur les cartes secondaires (cohérence visuelle avec le top-pick) */
+.offer-score-mini { flex-shrink: 0; text-align: center; min-width: 56px; align-self: center; }
+.offer-score-mini b { font-size: 1.25rem; font-weight: 800; color: var(--blue); line-height: 1; }
+.offer-score-mini span { font-size: 0.75rem; color: var(--gray-500); font-weight: 700; }
+.offer-card .offer-score-mini + .offer-price { margin-left: 4px; }
+@media (max-width: 680px) {
+  .offer-score-mini { min-width: 0; align-self: flex-start; }
+}
+
+/* === Top-pick ÉPURÉ (override) === */
+.offer-card.top-pick { background: #fff; padding: 30px 26px 24px; gap: 22px; }
+.tp-logo { width: 140px; height: 64px; }
+.tp-name { font-size: 1.35rem; margin-bottom: 4px; }
+.tp-tagline { font-size: 0.92rem; color: var(--gray-600); margin-bottom: 14px; line-height: 1.4; }
+.tp-checklist { grid-template-columns: 1fr 1fr; gap: 8px 20px; margin-bottom: 14px; }
+.tp-checklist li { font-size: 0.88rem; }
+.tp-side { width: 200px; gap: 10px; }
+.tp-score { padding: 9px 8px; }
+@media (max-width: 760px) {
+  .offer-card.top-pick { padding: 28px 18px 20px; gap: 14px; }
+  .tp-logo { width: 110px; }
+}
