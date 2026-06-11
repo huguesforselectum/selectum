@@ -174,7 +174,6 @@ def page(cat, cat_label, offers, slug, h1, intro, faq):
   <div class="tp-logo"><img src="/assets/logos/{o["slug"]}.png" alt="{n}" width="120" height="60" loading="lazy"></div>
   <div class="tp-main"><div class="tp-name">{n}</div><div class="tp-tagline">{ds}</div>{avis}</div>
   <div class="tp-side"><div class="tp-score"><b>{o["score"]}</b><span>/10</span><small>Note Selectum</small></div>
-  <div class="tp-price">{price}</div>
   <a class="btn-green tp-cta" href="{o["go"]}" target="_blank" rel="sponsored nofollow noopener">Voir l'offre →</a></div>
 </div>'''
         else:
@@ -183,7 +182,7 @@ def page(cat, cat_label, offers, slug, h1, intro, faq):
   <div class="offer-logo brand"><img src="/assets/logos/{o["slug"]}.png" alt="{n}" width="104" height="60" loading="lazy"></div>
   <div class="offer-info"><div class="offer-name">{n}</div><div class="offer-desc">{ds}</div></div>
   <div class="offer-score-mini"><b>{o["score"]}</b><span>/10</span></div>
-  <div class="offer-buy"><a href="{o["go"]}" class="btn-green" target="_blank" rel="sponsored nofollow noopener">Voir l'offre →</a><div class="offer-price-cap">{price}</div></div>
+  <div class="offer-buy"><a href="{o["go"]}" class="btn-green" target="_blank" rel="sponsored nofollow noopener">Voir l'offre →</a></div>
 </div>'''
     faqh = '<div class="faq"><h2>❓ Questions fréquentes</h2>' + "".join(
         f'<div class="faq-item"><div class="faq-question">{html.escape(q)} <span>+</span></div><div class="faq-answer">{html.escape(a)}</div></div>' for q,a in faq) + "</div>"
