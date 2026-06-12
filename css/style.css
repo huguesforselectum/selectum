@@ -732,3 +732,12 @@ body.lp { background: var(--gray-50); }
 .tp-side .tp-gosite { order: 4; }
 .tp-price span, .offer-price-cap span { font-size: 0.72rem; font-weight: 500; color: var(--gray-500); }
 .tp-price span { margin-left: 2px; }
+
+/* Pastille prix + badge bonus de bienvenue sur les cartes comparatives */
+.tp-pills { display:flex; gap:6px; flex-wrap:wrap; margin:8px 0 4px; }
+.price-pill { display:inline-flex; align-items:center; gap:4px; background:#f0fdf4; color:#15803d; border:1px solid #bbf7d0; font-weight:600; font-size:.78rem; padding:3px 10px; border-radius:999px; }
+.offer-tag.price-tag { background:#f0fdf4; color:#15803d; border-color:#bbf7d0; }
+.card-bonus { display:inline-flex; align-items:center; justify-content:center; gap:5px; margin-top:8px; background:#fff7ed; color:#c2410c; border:1px solid #fed7aa; font-weight:700; font-size:.78rem; padding:6px 10px; border-radius:8px; text-decoration:none; line-height:1.2; }
+.card-bonus:hover { background:#ffedd5; }
+.tp-side .card-bonus, .offer-buy .card-bonus { width:100%; box-sizing:border-box; }
+.tp-side .card-bonus { order: 3; }
