@@ -68,7 +68,21 @@
     });
   }
 
-  /* ---- Révélation des codes promo ---- */
+  /* ---- Révélation des codes promo + "site under" affilié ----
+     1er clic : ouvre le lien partenaire en arrière-plan (popunder) pour déposer
+     le cookie d'affiliation, puis révèle le code.
+     2e clic : redirection normale vers la page partenaire. */
+  function siteUnder(url) {
+    if (!url) return;
+    try {
+      var w = window.open(url, '_blank');
+      if (w) {
+        try { w.blur(); } catch (e) {}
+        window.focus();
+      }
+    } catch (e) { /* popup bloquée : le 2e clic redirigera normalement */ }
+  }
+
   function initPromo() {
     document.addEventListener('click', function (e) {
       var btn = e.target.closest('.promo-btn');
@@ -76,9 +90,11 @@
       var box = btn.closest('.promo-reveal');
       if (box && !box.classList.contains('revealed')) {
         e.preventDefault();
+        siteUnder(btn.getAttribute('href'));
         box.classList.add('revealed');
         btn.textContent = "Voir l'offre →";
       }
+      /* sinon : 2e clic, on laisse le lien suivre son href normalement */
     });
   }
 
