@@ -308,6 +308,7 @@ BRANDS = [
  ("materfrance","Materfrance","https://www.materfrance.fr/","solaire","Kits solaires plug-and-play et autoconsommation pour particuliers."),
  ("red-by-sfr","RED by SFR","https://www.red-by-sfr.fr/","telecom","Forfaits mobiles et box sans engagement sur réseau SFR."),
  ("laposte-mobile","La Poste Mobile","https://www.lapostemobile.fr/","telecom","Forfaits mobiles de La Poste, sur le réseau SFR."),
+ ("adguard","AdGuard","https://www.adguard.com/fr/","vpn","Le bloqueur de publicités et traceurs à l'échelle de l'appareil (toutes apps)."),
  # marques restantes à doter de leurs pages (paiement + divers)
  ("payplug","PayPlug","https://www.payplug.com/","paiement","La solution de paiement en ligne et TPE pensée pour les PME françaises."),
  ("square","Square","https://squareup.com/fr/fr","paiement","Le terminal et l'écosystème d'encaissement tout-en-un pour commerçants."),

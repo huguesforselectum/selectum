@@ -26,8 +26,6 @@ BR = [
   "offre sur l'abonnement et le matériel",["sumup","zettle","mypos"],False,True),
  ("expressvpn","ExpressVPN","Tech","/comparatifs/vpn.html","comparatif VPN",
   "réduction sur l'abonnement (mois offerts via le lien)",["nordvpn","surfshark","cyberghost"],False,True),
- ("adguard","AdGuard","Tech","/comparatifs/bloqueur-de-pub.html","comparatif bloqueur de pub",
-  "réduction sur la licence AdGuard",["expressvpn","nordvpn","surfshark"],False,True),
  ("shopify","Shopify","E-commerce","/comparatifs/creer-boutique-en-ligne.html","comparatif création de boutique en ligne",
   "essai gratuit et offre de lancement",["bigcommerce","squarespace","wix"],False,True),
  ("santevet","SantéVet","Assurance","/comparatifs/assurance-animaux.html","comparatif assurance animaux",
