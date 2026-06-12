@@ -416,7 +416,7 @@ def gen_avis(slug, name, url, vert, desc):
   <div class="faq"><h2>❓ Questions fréquentes</h2>{"".join(f'<div class="faq-item"><div class="faq-question">{html.escape(q)} <span>+</span></div><div class="faq-answer">{html.escape(a)}</div></div>' for q,a in faq)}</div>
   <div class="rel-links"><h2>À lire aussi</h2><div class="rel-list"><a href="{comp_url}" class="rel-chip">{html.escape(comp_label.capitalize())} →</a><a href="/code-promo/{slug}.html" class="rel-chip">Code promo {n} →</a><a href="/parrainage/{slug}.html" class="rel-chip">Parrainage {n} →</a>{sib_links}</div></div>
 </div></div>'''
-    open(out,"w",encoding="utf-8").write(head(page_url,title,d,f"Avis {name}",art+"\n"+'<script type="application/ld+json">'+faq_ld(faq)+'</script>\n')+body+FOOT)
+    open(out,"w",encoding="utf-8").write(head(page_url,title,d,f"Avis {name}",'<script type="application/ld+json">'+art+'</script>\n<script type="application/ld+json">'+faq_ld(faq)+'</script>\n')+body+FOOT)
     return True
 
 def gen_codepromo(slug, name, url, vert, desc):
@@ -454,7 +454,7 @@ def gen_codepromo(slug, name, url, vert, desc):
   <div class="faq"><h2>❓ Questions fréquentes</h2>{"".join(f'<div class="faq-item"><div class="faq-question">{html.escape(q)} <span>+</span></div><div class="faq-answer">{html.escape(a)}</div></div>' for q,a in faq)}</div>
   <div class="rel-links"><h2>À lire aussi</h2><div class="rel-list"><a href="/avis/{slug}.html" class="rel-chip">Avis {n} →</a><a href="/parrainage/{slug}.html" class="rel-chip">Parrainage {n} →</a><a href="{comp_url}" class="rel-chip">{html.escape(comp_label.capitalize())} →</a></div></div>
 </div></div>'''
-    open(out,"w",encoding="utf-8").write(head(page_url,title,d,f"Code promo {name}",art+"\n"+'<script type="application/ld+json">'+faq_ld(faq)+'</script>\n')+body+FOOT)
+    open(out,"w",encoding="utf-8").write(head(page_url,title,d,f"Code promo {name}",'<script type="application/ld+json">'+art+'</script>\n<script type="application/ld+json">'+faq_ld(faq)+'</script>\n')+body+FOOT)
     return True
 
 def gen_parrainage(slug, name, url, vert, desc):
@@ -492,7 +492,7 @@ def gen_parrainage(slug, name, url, vert, desc):
   <div class="faq"><h2>❓ Questions fréquentes</h2>{"".join(f'<div class="faq-item"><div class="faq-question">{html.escape(q)} <span>+</span></div><div class="faq-answer">{html.escape(a)}</div></div>' for q,a in faq)}</div>
   <div class="rel-links"><h2>À lire aussi</h2><div class="rel-list"><a href="/avis/{slug}.html" class="rel-chip">Avis {n} →</a><a href="/code-promo/{slug}.html" class="rel-chip">Code promo {n} →</a><a href="{comp_url}" class="rel-chip">{html.escape(comp_label.capitalize())} →</a></div></div>
 </div></div>'''
-    open(out,"w",encoding="utf-8").write(head(page_url,title,d,f"Parrainage {name}",art+"\n"+'<script type="application/ld+json">'+faq_ld(faq)+'</script>\n')+body+FOOT)
+    open(out,"w",encoding="utf-8").write(head(page_url,title,d,f"Parrainage {name}",'<script type="application/ld+json">'+art+'</script>\n<script type="application/ld+json">'+faq_ld(faq)+'</script>\n')+body+FOOT)
     return True
 
 def fetch_logo(slug, url):
