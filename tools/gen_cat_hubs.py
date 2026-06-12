@@ -52,6 +52,9 @@ HUBS=[
  ("ecommerce","Codes promo création de site e-commerce 2026",
   "Lancer une boutique en ligne avec un essai gratuit ou une offre de lancement : comparez Shopify et ses alternatives pour créer votre site e-commerce.",
   "/comparatifs/creer-boutique-en-ligne.html","comparatif création de boutique en ligne",["creer-boutique-en-ligne","ecommerce"]),
+ ("hebergement","Codes promo hébergement web 2026 : les meilleures offres",
+  "L'hébergement web est l'un des secteurs où les prix d'appel sont les plus agressifs. Retrouvez les offres vérifiées (IONOS, Hostinger, OVHcloud, o2switch…) pour héberger votre site moins cher.",
+  "/comparatifs/hebergement-web.html","comparatif des hébergeurs web",["hebergement-web"]),
 ]
 
 def build(slug,h1,intro,comp,complab,sources):
