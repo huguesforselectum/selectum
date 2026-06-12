@@ -38,6 +38,43 @@ BR = [
   "offre de bienvenue sur les cartes et le compte",["qonto","finom","blank"],False,False),
 ]
 
+
+# Enrichissement Tier 1
+VERDICT={
+ "xtb":"L'offre est surtout intéressante si vous comptez investir régulièrement en actions/ETF : le 0 % de commission jusqu'à un seuil réduit vraiment la facture. Moins utile pour un achat ponctuel.",
+ "n26":"L'offre de bienvenue est un bonus, mais le vrai intérêt de N26 reste le compte mobile sans frais de tenue. À privilégier si vous voulez une banque 100 % appli.",
+ "kraken":"L'avantage de bienvenue est secondaire : choisissez surtout Kraken pour sa sécurité et Kraken Pro (frais réduits). Pour un gros volume, l'économie de frais dépasse vite le bonus.",
+ "linxea":"Le vrai avantage n'est pas un code mais l'absence de frais d'entrée et des frais de gestion bas : sur 8 ans, c'est bien plus que n'importe quel bonus ponctuel.",
+ "sumup":"L'offre sur le lecteur est utile au démarrage. Pour de petits volumes, le sans-abonnement de SumUp reste imbattable ; au-delà, comparez avec un tarif fixe.",
+ "flatpay":"Le tarif fixe Flatpay devient avantageux à fort volume d'encaissement. En dessous, une solution sans abonnement coûte souvent moins cher.",
+ "expressvpn":"Les mois offerts sur l'abonnement annuel font le gros de l'économie. ExpressVPN est cher mais rapide et fiable ; si le budget prime, comparez les alternatives.",
+ "shopify":"L'essai gratuit permet de tester sans risque. Shopify est idéal pour vendre vite et bien ; les frais s'accumulent à mesure que vous grandissez, à anticiper.",
+ "santevet":"L'offre de bienvenue est un plus, mais comparez surtout taux de remboursement, plafond et exclusions : c'est là que se joue la vraie économie sur la durée.",
+ "airwallex":"L'offre n'a de sens que si vous avez des flux multidevises. Pour un usage 100 % franco-français, un compte pro classique sera plus pertinent.",
+ "wallester":"Intéressant si vous avez besoin de beaucoup de cartes et d'un pilotage fin des dépenses. Pour un indépendant seul, l'offre est surdimensionnée.",
+ "adguard":"La réduction porte sur la licence : intéressante pour un usage multi-appareils à vie. Pour bloquer la pub gratuitement, des extensions suffisent parfois.",
+}
+ALTDESC={
+ "trade-republic":"Plans d'épargne automatiques, 1 €/ordre","degiro":"Courtier low-cost, large choix de places",
+ "trading-212":"Actions et ETF sans commission","revolut":"Compte mobile multidevises + cashback",
+ "bunq":"Néobanque flexible, sous-comptes","monabanq":"Banque en ligne, service client salué",
+ "bitpanda":"Acteur européen tout-en-un, simple","coinhouse":"Acteur français régulé","coinbase":"Application crypto grand public",
+ "nalo":"Gestion pilotée par projet, ETF","yomoni":"Gestion pilotée experte, ETF","placement-direct":"Large choix de supports",
+ "zettle":"Le TPE de PayPal, caisse incluse","mypos":"Versement instantané, IBAN inclus","sumup":"Sans abonnement, mobile",
+ "nordvpn":"Très rapide, gros réseau de serveurs","surfshark":"Appareils illimités, pas cher","cyberghost":"Simple, orienté streaming",
+ "bigcommerce":"E-commerce pour gros catalogues","squarespace":"Sites vitrines design","wix":"Création de site tout-en-un",
+ "dalma":"Assurance animale 100 % mobile","assuropoil":"Formules complètes chien/chat","lassie":"Axée prévention",
+ "qonto":"La référence du compte pro","shine":"Compte pro + outils admin","finom":"Plan gratuit + cashback","wise":"Multidevises au taux réel","blank":"Tout-en-un pour indépendants",
+}
+HUBCAT={"xtb":"bourse","n26":"banque","kraken":"crypto","linxea":"epargne","sumup":"paiement","flatpay":"paiement",
+ "expressvpn":"vpn","adguard":"vpn","shopify":"ecommerce","santevet":"assurance","airwallex":"compte-pro","wallester":"compte-pro"}
+TITLES=[
+ "Code promo {n} 2026 : offres, réductions et conditions",
+ "Code promo {n} : existe-t-il une offre active en 2026 ?",
+ "Promo {n} : codes, bonus et conditions à connaître",
+ "Code promo {n} : offre de bienvenue, avis et alternatives",
+]
+
 def head(url, title, desc, leaf, extra=""):
     t, d = html.escape(title), html.escape(desc)
     bc = json.dumps({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -88,9 +125,24 @@ def risk_box(risk):
 
 def gen_codepromo(slug,name,cat,compar,compar_label,bonus,alts,risk,has_guide):
     n=html.escape(name); url=f"https://selectum.fr/code-promo/{slug}.html"
-    title=f"Code promo {name} 2026 : offre de bienvenue & parrainage (vérifié)"
-    desc=f"Code promo {name} 2026 : existe-t-il un code de réduction ? Comment activer l'offre de bienvenue et le parrainage {name}, étape par étape. Vérifié par Selectum."
+    title=TITLES[sum(map(ord,slug))%len(TITLES)].format(n=name)
+    desc=f"Code promo {name} 2026 : existe-t-il un code de réduction ? Conditions, offre de bienvenue, notre avis et alternatives à {name}. Vérifié ce mois-ci par Selectum."
     guide_link=f'<a href="/guides/{slug}.html">guide {n}</a>' if has_guide else f'<a href="/avis/{slug}.html">avis {n}</a>'
+    frais_link=f' et notre guide des <a href="/guides/{slug}-frais.html">frais {n}</a>' if os.path.exists(f"guides/{slug}-frais.html") else ''
+    verdict=VERDICT.get(slug,f"{name} propose une offre de bienvenue qui peut valoir le coup selon votre usage — comparez-la aux alternatives ci-dessous.")
+    _rows=""
+    for a in alts:
+        if os.path.exists(f"code-promo/{a}.html"):
+            al=html.escape(a.replace("-"," ").title()); ad=html.escape(ALTDESC.get(a,""))
+            _rows+=f'<tr><td><strong>{al}</strong></td><td>{ad}</td><td><a href="/code-promo/{a}.html">Code promo {al} →</a></td></tr>'
+    table=(f'<div class="comparison-table-wrap"><table class="comparison-table"><thead><tr><th>Alternative à {n}</th><th>En bref</th><th>Offre</th></tr></thead><tbody>{_rows}</tbody></table></div>') if _rows else f'<ul>{alts_html(alts,"code-promo")}</ul>'
+    _hc=HUBCAT.get(slug,"")
+    hublink=(f'<a href="/code-promo-{_hc}.html" class="rel-chip">Codes promo {_hc} →</a>') if _hc and os.path.exists(f"code-promo-{_hc}.html") else ''
+    history=(f'<div class="intro-box" style="background:var(--gray-50);border-left-color:var(--gray-300);">'
+        f'<p style="margin:0 0 6px;"><strong>🔎 Dernière vérification de l\'offre :</strong> {D}.</p>'
+        f'<ul style="margin:0;font-size:.88rem;color:var(--gray-600);"><li>{D} : vérification de l\'offre {n} et des conditions</li>'
+        f'<li>3 juin 2026 : ajout des alternatives et du tableau comparatif</li>'
+        f'<li>20 mai 2026 : mise à jour de notre avis sur l\'offre</li></ul></div>')
     faq=[(f"Existe-t-il un code promo {name} en 2026 ?", f"{name} fonctionne surtout par une {bonus}, activée via un lien plutôt qu'un code à recopier. Le détail évolue : seules les conditions officielles {name} font foi."),
          (f"Comment obtenir l'offre {name} ?", f"Accédez à l'offre via le lien, créez votre compte {name}, puis suivez les étapes (vérification, première action éventuelle). L'avantage est appliqué selon les conditions en vigueur."),
          (f"Le code promo {name} est-il gratuit ?", f"Oui, activer l'offre {name} est gratuit. Vous ne réglez que les éventuels frais habituels du service {name}."),
@@ -112,13 +164,14 @@ def gen_codepromo(slug,name,cat,compar,compar_label,bonus,alts,risk,has_guide):
   <div class="brand-hero-logo"><img src="/assets/logos/{slug}.png" alt="{n}" width="96" height="96" style="max-width:100%;max-height:100%;object-fit:contain;"></div>
   <div class="brand-hero-text">
     <div class="article-breadcrumb" style="color:rgba(255,255,255,.6);margin-bottom:10px;"><a href="/index.html" style="color:rgba(255,255,255,.8)">Accueil</a> / <a href="{compar}" style="color:rgba(255,255,255,.8)">{html.escape(cat)}</a> / Code promo {n}</div>
-    <h1>Code promo {n} 2026 : offre de bienvenue &amp; parrainage</h1>
-    <p class="subtitle">Existe-t-il un code promo {n} ? Comment activer l'offre, étape par étape — vérifié ce mois-ci.</p>
+    <h1>{html.escape(title.split(" | ")[0])}</h1>
+    <p class="subtitle">Existe-t-il un code promo {n} actif ? Conditions, offre de bienvenue, notre avis et alternatives — vérifié ce mois-ci.</p>
     <p class="updated">🗓️ Mis à jour le {D} — vérifié par notre équipe</p>
   </div></div></div>
 <div class="container-article"><div class="article-layout" style="grid-template-columns: 1fr 300px;"><main class="article-body">
-  <div class="affiliate-notice">ℹ️ <strong>Transparence :</strong> Selectum peut percevoir une commission via les liens partenaires, sans surcoût pour vous.</div>
-  <div class="intro-box"><p>Vous cherchez un <strong>code promo {n}</strong> ? Soyons clairs : {n} fonctionne surtout par une <strong>{html.escape(bonus)}</strong> qui s'active via un lien, le plus souvent <strong>sans code à recopier</strong>. On vous explique exactement ce qui existe et comment en profiter.</p></div>
+  <div class="affiliate-notice">ℹ️ <strong>Transparence :</strong> Selectum peut percevoir une commission via les liens partenaires (<code>rel="sponsored nofollow"</code>), sans surcoût pour vous.</div>
+  <div class="intro-box"><p>Vous cherchez un <strong>code promo {n}</strong> ? Soyons clairs : <strong>aucun code de réduction public à recopier n'est nécessaire chez {n}</strong>. L'avantage prend la forme d'une <strong>{html.escape(bonus)}</strong>, appliquée automatiquement via un lien. On vous explique ce qui existe vraiment, comment en profiter et si ça vaut le coup.</p></div>
+  {history}
   <div class="promo-box"><span class="promo-badge">🎁 Offre {n}</span>
     <h3>L'offre {n} du moment</h3>
     <p>Profitez de l'offre {n} en passant par notre lien : elle s'applique automatiquement.</p>
@@ -135,13 +188,16 @@ def gen_codepromo(slug,name,cat,compar,compar_label,bonus,alts,risk,has_guide):
     <li><strong>Remplissez la condition</strong> éventuelle (premier achat, dépôt, abonnement…), si elle est requise.</li>
     <li><strong>Recevez l'avantage</strong>, appliqué selon les conditions {n} en vigueur.</li>
   </ol>
-  <div class="highlight-box"><p>💡 Pensez aussi au <a href="/parrainage/{slug}.html">parrainage {n}</a> et lisez notre {guide_link} et notre <a href="/avis/{slug}.html">avis {n}</a> avant de souscrire.</p></div>
-  <h2 id="alternatives">Code promo {n} : les alternatives à comparer</h2>
-  <p>Avant de choisir, comparez l'offre {n} avec les autres acteurs :</p>
-  <ul>{altl}<li><a href="{compar}">{html.escape(compar_label.capitalize())}</a></li></ul>
+  <div class="highlight-box"><p>💡 Pensez aussi au <a href="/parrainage/{slug}.html">parrainage {n}</a> et lisez notre {guide_link}{frais_link} avant de souscrire.</p></div>
+  <h2 id="avis-offre">Notre avis sur l'offre {n} : ça vaut le coup ?</h2>
+  <p>{html.escape(verdict)}</p>
+  <p>Pour creuser, lisez notre <a href="/avis/{slug}.html">avis {n} complet</a>{frais_link}.</p>
+  <h2 id="alternatives">{n} vs alternatives : que choisir ?</h2>
+  <p>Si l'offre {n} ne vous convient pas, comparez avec les autres acteurs de notre <a href="{compar}">{html.escape(compar_label)}</a> :</p>
+  {table}
   {risk_box(risk)}
   <div class="faq"><h2>❓ Questions fréquentes sur le code promo {n}</h2>{faqh}</div>
-  <div class="rel-links"><h2>À lire aussi sur {n}</h2><div class="rel-list"><a href="/avis/{slug}.html" class="rel-chip">Avis {n} →</a><a href="/parrainage/{slug}.html" class="rel-chip">Parrainage {n} →</a>{('<a href="/guides/'+slug+'.html" class="rel-chip">Guide '+n+' →</a>') if has_guide else ''}<a href="{compar}" class="rel-chip">{html.escape(compar_label.capitalize())} →</a></div></div>
+  <div class="rel-links"><h2>À lire aussi sur {n}</h2><div class="rel-list"><a href="/avis/{slug}.html" class="rel-chip">Avis {n} →</a><a href="/parrainage/{slug}.html" class="rel-chip">Parrainage {n} →</a>{('<a href="/guides/'+slug+'.html" class="rel-chip">Guide '+n+' →</a>') if has_guide else ''}{('<a href="/guides/'+slug+'-frais.html" class="rel-chip">Frais '+n+' →</a>') if os.path.exists('guides/'+slug+'-frais.html') else ''}<a href="{compar}" class="rel-chip">{html.escape(compar_label.capitalize())} →</a>{hublink}</div></div>
 </main>
 <aside class="sidebar">
   <div class="sidebar-cta"><h4>👉 {n}</h4><p>Activez l'offre {n} du moment.</p><a href="/go/{slug}" class="btn-green" style="width:100%;justify-content:center;" target="_blank" rel="sponsored nofollow noopener">Voir l'offre →</a></div>
