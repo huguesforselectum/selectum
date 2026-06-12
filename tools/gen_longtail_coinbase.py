@@ -12,8 +12,9 @@ P, H2, OL, UL = ns["P"], ns["H2"], ns["OL"], ns["UL"]
 BRAND = ns["BRAND"]; page = ns["page"]
 def BOX(t): return f'<div class="highlight-box"><p>{t}</p></div>'
 
-BRAND["coinbase"] = dict(name="Coinbase", logo="/assets/logos/coinbase.png", cat="plateforme crypto",
-    compar="/comparatifs/crypto.html", compar_label="Comparatif plateforme crypto",
+# NB compliance Coinbase : ne pas qualifier Coinbase de "plateforme"/"exchange" crypto.
+BRAND["coinbase"] = dict(name="Coinbase", logo="/assets/logos/coinbase.png", cat="application crypto",
+    compar="/comparatifs/crypto.html", compar_label="Comparatif crypto",
     avis="/avis/coinbase.html", promo="/code-promo/coinbase.html", parr="/parrainage/coinbase.html",
     go="/go/coinbase", risk="Investir dans les crypto-actifs comporte un risque de perte en capital.")
 
