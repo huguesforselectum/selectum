@@ -528,7 +528,7 @@
   <url><loc>https://selectum.fr/comparatifs/assurance-auto-resilie-malus.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/comparatifs/assurance-auto.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/comparatifs/assurance-emprunteur.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://selectum.fr/comparatifs/assurance-habitation.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://selectum.fr/comparatifs/assurance-habitation.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/comparatifs/assurance-vie-etf.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/comparatifs/assurance-vie-scpi.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://selectum.fr/comparatifs/assurance-vie.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -933,13 +933,19 @@
   <url><loc>https://selectum.fr/guides/coinbase.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/coinhouse.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/comment-acheter-cryptomonnaies.html</loc><lastmod>2026-06-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/comment-acheter-ethereum.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/comment-changer-assurance-auto.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/comment-changer-fournisseur-energie.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/comment-choisir-mutuelle-sante.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/comment-creer-un-site-internet.html</loc><lastmod>2026-06-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/comment-devenir-auto-entrepreneur.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/comment-investir-en-bourse-debutant.html</loc><lastmod>2026-06-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/comment-obtenir-credit-consommation.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/comment-ouvrir-un-pea.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/comment-placer-10000-euros.html</loc><lastmod>2026-06-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/comment-resilier-assurance-habitation.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/comment-resilier-mutuelle.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/compte-pro-gratuit.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/compte-pro-obligatoire-micro-entreprise.html</loc><lastmod>2026-06-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/cyberghost.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/declarer-cryptomonnaies-impots.html</loc><lastmod>2026-06-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -1001,14 +1007,18 @@
   <url><loc>https://selectum.fr/guides/magnolia.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/maif.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/malakoffhumanis.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/meilleur-antivirus.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleur-compte-pro-freelance.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleur-compte-pro-sasu.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/meilleur-courtier-debutant.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleur-courtier-pea.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleur-hebergement-ecommerce.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleur-vpn-pas-cher.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleure-application-acheter-bitcoin.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleure-assurance-auto.html</loc><lastmod>2026-06-11</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/meilleure-assurance-jeune-conducteur.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleure-assurance-vie-debutant.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/meilleure-banque-jeune-actif.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleure-carte-bancaire-voyage.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleure-carte-crypto.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/meilleure-neobanque-etudiant.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -1028,6 +1038,7 @@
   <url><loc>https://selectum.fr/guides/pea-ou-compte-titres.html</loc><lastmod>2026-06-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/pennylane.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/per-comment-preparer-retraite.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/per-ou-assurance-vie.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/pipedrive.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/pixpay.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/placement-direct.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -1042,6 +1053,7 @@
   <url><loc>https://selectum.fr/guides/revolut.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/sage.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/salesforce.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://selectum.fr/guides/scpi-ou-immobilier-locatif.html</loc><lastmod>2026-06-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/sellsy.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/sfr.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://selectum.fr/guides/shine.html</loc><lastmod>2026-06-12</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
